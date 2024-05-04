@@ -1,0 +1,75 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    display: grid;
+    grid-template: repeat(2, 1fr);
+    gap: 32px;
+    padding: 32px;
+    position: relative;
+}
+
+.head_section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logo {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 88%;
+    position: absolute;
+    top: 0;
+    padding: 32px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+nav ul {
+    list-style-type: none;
+    width: 300px;
+    padding: 32px;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+nav .close {
+    margin: 0 0 20px 70%;
+}
+
+nav .menu-item a {
+    font-size: 0.875rem;
+}
+
+nav .menu-item .feature-list-item {
+    align-self: center;
+    margin-left: 10px;
+}
+
+nav .menu-item .feature-list-item a {
+    font-size: 0.9rem;
+}
+
+nav .menu-item .feature-list-item span {
+    margin-right: 5px;
+}
+
+.decoration {
+    padding: 1px solid hsl(0, 0%, 8%);
+}

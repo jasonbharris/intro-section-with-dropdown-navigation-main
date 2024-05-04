@@ -7,22 +7,67 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
 
-  Features
-  Company
-  Careers
-  About
+  <header>
+    <section class="head_section">
+      <div class="logo">
+        <a href="#">
+          <img src="./images/logo.svg" alt="snap logo">
+        </a>
+      </div>
 
-  Login
-  Register
+      <!-- Navigation menu -->
+
+      <nav class="main-nav">
+        <div class="close">
+          <img src="./images/icon-close-menu.svg" alt="close menu icon">
+        </div>
+        <ul class="menu">
+          <!-- Features menu -->
+          <li class="menu-item"><a href="#">Features<span><img src="./images/icon-arrow-up.svg" alt="Features closed"></span></a>
+            <li class="feature-list-item"><a href="#"> 
+              <span>
+                <img src="./images/icon-todo.svg" alt="Todo icon">
+              </span>Todo List</a></li>
+            <li class="feature-list-item"><a href="#">
+              <span>
+                <img src="./images/icon-calendar.svg" alt="Calendar icon">
+              </span>Calendar</a></li>
+            <li class="feature-list-item"><a href="#">
+              <span>
+                <img src="./images/icon-reminders.svg" alt="Reminder icon">
+              </span>Reminders</a></li>
+            <li class="feature-list-item"><a href="#">
+              <span>
+                <img src="./images/icon-planning.svg" alt="Plan icon">
+              </span>Planning</a></li>
+          </li>
+          <!-- Company menu -->
+          <li class="menu-item"><a href="#">Company<span><img src="./images/icon-arrow-up.svg" alt="Features closed"></span></a>
+            <li class="feature-list-item"><a href="#">History</a></li>
+            <li class="feature-list-item"><a href="#">Our Team</a></li>
+            <li class="feature-list-item"><a href="#">Blog</a></li>
+          </li>
+          <li class="menu-item"><a href="#">Careers</a></li>
+          <li class="menu-item"><a href="#">About</a></li>
+        </ul>
+        <div class="register">
+          <ul class="register_list">
+            <li><a href="#">Login</a></li>
+            <li class="decoration"><a href="#">Register</a></li>
+          </ul>
+        </div>
+      </nav>
+  </section>
+
+  </header>
+
+  <section class="hero-image">
+    <img src="./images/image-hero-mobile.png" alt="mobile hero image">
+  </section>
 
   Make remote work
 
